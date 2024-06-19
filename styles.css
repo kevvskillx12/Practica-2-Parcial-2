@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; /* fuente de letra */
+    background-color: rgb(55, 28, 28); /* color del fondo de la página */
+}
+
+.imagen {
+    display: block; /* Hace que la imagen sea un elemento block */
+    margin-right: auto; /* Hace que el marco esté derecho automáticamente */
+    margin-left: auto;  /* Hace que el marco esté izquierdo automáticamente */
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.contenedortitulo {
+    text-align: center;
+    margin-top: 20px;
+    color: #282f4a; /* Color del texto del título */
+    text-shadow: 2px 2px 4px black; /* Sombra de texto */
+    margin: 20px 0;
+    font-family: Georgia, serif; /* Fuente para el texto */
+}
+
+.contenedornombres {
+    text-align: center; /* Alineado del texto centrado */
+    margin-top: 20px; 
+    color: #282f4a; /* Color del texto */
+    text-shadow: 2px 2px 4px black; /* Sombra de texto */
+}
+
+.botton {
+    border-radius: 10px;
+    font-family: 'Courier New', monospace; /* Fuente para el botón */
+    text-shadow: 2px 2px 4px black;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(171, 166, 166); /* Color de fondo del botón */
+}
+
+.barranombre {
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    color: #282f4a;
+    width: 300px; /* Ancho del cuadro de texto */
+    height: 20px; /* Altura del cuadro de texto */
+    padding: 10px; /* Tamaño dentro del cuadro de texto */
+    text-shadow: 2px 2px 4px black; /* Sombra de texto negra */
+}
